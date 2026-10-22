@@ -13,18 +13,18 @@ header h1{margin:0 0 6px;font-size:30px}header p{margin:0}
 nav{display:flex;gap:8px;overflow:auto;padding:10px;background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 10px #0001}
 nav button{border:0;border-radius:20px;padding:10px 14px;background:#edf2ff;color:#3157d5;font-weight:700;white-space:nowrap}
 main{max-width:900px;margin:auto;padding:16px}.page{display:none}.page.active{display:block}
-.card{background:#fff;border-radius:20px;padding:20px;margin:14px 0;box-shadow:0 5px 18px #17365d18}
+.card{background:#fff;border-radius:20px;padding:20px;margin:14px 0;box-shadow:0 5px 18px #17365d18}.card .card{box-shadow:none;padding:14px 0;margin:8px 0;border-radius:0}
 .hero{display:grid;grid-template-columns:1fr 190px;gap:16px;align-items:center}
 .scene{background:linear-gradient(#dff3ff 0 58%,#b9e4a2 58%);border-radius:18px;text-align:center;padding:14px;font-size:52px}
 .students{font-size:38px;margin-top:8px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
 .feature{padding:17px;border:1px solid #e0e8f6;border-radius:16px;background:#f9fbff}
 .feature b{display:block;color:#3157d5;margin:4px 0}.badge{display:inline-block;background:#e7edff;color:#3157d5;padding:6px 10px;border-radius:20px;font-weight:700;font-size:13px}
 h2{color:#3157d5}.btn{border:0;border-radius:10px;padding:12px 17px;background:#3157d5;color:white;font-weight:700}
-.option{width:100%;text-align:left;margin:7px 0;padding:12px;border:1px solid #d8dfeb;background:#fff;border-radius:10px}
+.option{display:block;width:100%;text-align:left;margin:8px 0;padding:13px 14px;border:1px solid #d8dfeb;background:#fff;border-radius:12px;line-height:1.45;font-size:15px;white-space:normal;overflow-wrap:anywhere}.option input{margin-right:8px;vertical-align:middle}
 .option:hover{background:#f1f5ff}.score{font-size:19px;font-weight:700;padding:14px;border-radius:14px;background:#edf5ff}
 .tip{padding:12px;border-left:4px solid #3157d5;background:#f6f8ff;margin:9px 0}
 footer{text-align:center;padding:28px;color:#687386}
-@media(max-width:650px){.hero{grid-template-columns:1fr}.scene{font-size:44px}}
+@media(max-width:650px){body{font-size:15px}.hero{grid-template-columns:1fr}.scene{font-size:44px}main{padding:10px}.card{padding:16px}nav button{padding:9px 12px;font-size:13px}.option{font-size:14px;padding:12px}.card b{line-height:1.45}}
 </style>
 </head>
 <body>
